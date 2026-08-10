@@ -2,7 +2,7 @@
 tugas yang kemarin di views/tugas <br>
 nauval nur fauzi <br>
 Rebuild kemarin <br>
-<b> Untuk jalaninnya di terminal ketik ini dulu ya hehe </b> <br>
+<b> UNTUK JALANINNYA DI TERMINAL KETIK INI DULU YA HEHE </b> <br>
 composer install <br> 
 cp .env.example .env <br>
 php artisan key:generate <br>
