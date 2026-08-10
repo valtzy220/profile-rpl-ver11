@@ -2,6 +2,7 @@
 tugas yang kemarin di views/tugas <br>
 nauval nur fauzi <br>
 Rebuild kemarin <br>
+<b>.ENV</b> <br>
 <b> UNTUK JALANINNYA DI TERMINAL KETIK INI DULU YA HEHE </b> <br>
 composer install <br> 
 cp .env.example .env <br>
