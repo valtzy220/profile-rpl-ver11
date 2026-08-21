@@ -23,3 +23,9 @@ Route::get('/mata-pelajaran',
 Route::get('/profile',
     [App\Http\Controllers\PageController::class, 'profile'])
     ->name('profile');
+Route::get('/prestasi',
+    [App\Http\Controllers\PageController::class, 'prestasi'])
+    ->name('prestasi');
+Route::get('/gallery',
+    [App\Http\Controllers\PageController::class, 'gallery'])
+    ->name('gallery');

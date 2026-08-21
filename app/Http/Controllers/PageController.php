@@ -30,4 +30,12 @@ class PageController extends Controller
     {
         return view('profile');
     }
+    public function prestasi()
+    {
+        return view('prestasi');
+    }
+    public function gallery()
+    {
+        return view('gallery');
+    }
 }

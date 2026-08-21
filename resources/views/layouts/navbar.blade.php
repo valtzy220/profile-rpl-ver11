@@ -9,6 +9,8 @@
             <li><a href="{{ route('mata-pelajaran') }}" class="navbar-link {{ request()->is('mapel') ? 'active' : '' }}">Mata Pelajaran</a></li>
             <li><a href="{{ route('contact') }}" class="navbar-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a></li>
             <li><a href="{{ route('fasilitas') }}" class="navbar-link {{ request()->is('fasilitas') ? 'active' : '' }}">fasilitas</a></li>
+            <li><a href="{{ route('prestasi') }}" class="navbar-link {{ request()->is('prestasi') ? 'active' :''}}">prestasi</a></li>
+            <li><a href="{{ route('gallery') }}" class="navbar-link {{ request()->is('gallery') ? 'active' : '' }}">Gallery</a></li>
         </ul>
 
         <button class="navbar-toggle" id="navbar-toggle">
