@@ -4,7 +4,6 @@ Tugas1 <br>
 Tugas2 <br>
 nauval nur fauzi <br>
 Rebuild kemarin <br>
-<b>.ENV</b> <br>
 <b> UNTUK JALANINNYA DI TERMINAL KETIK INI DULU </b> <br>
 composer install <br> 
 cp .env.example .env <br>
