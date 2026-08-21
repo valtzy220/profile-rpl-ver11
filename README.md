@@ -1,5 +1,7 @@
 <b>Laravel 11 </b><br>
 tugas yang kemarin di views/tugas <br>
+Tugas1 <br>
+Tugas2 <br>
 nauval nur fauzi <br>
 Rebuild kemarin <br>
 <b>.ENV</b> <br>
