@@ -21,63 +21,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Taufik Dzikri pangestu</td>
-                    <td><b>Produktif</b></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Retno Novia</td>
-                    <td><b>Produktif</b></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Yani Yulyanti
-    
-                    </td>
-                    <td><B>Produktif</B></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Bu Elis</td>
-                    <td>PAI</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Pa Rizal</td>
-                    <td>Kewirausahaan (KWU)</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Pa Dian</td>
-                    <td>MPKK</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Bu Retti</td>
-                    <td>Matematika</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Bu Mulya</td>
-                    <td>Bahasa Indonesia</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Bu Annia</td>
-                    <td>Bahasa Inggris</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Bu Heni</td>
-                    <td>PPKN</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>Bu Septi</td>
-                    <td>Bimbingan Konseling (BK)</td>
-                </tr>
+            @foreach ($guru as $index => $g)
+    <tr>
+        <td>{{ $index + 1 }}</td>
+        <td>{{ $g['nama'] }}</td>
+        <td>{{ $g['mata_pelajaran'] }}</td>
+    </tr>
+@endforeach
             </tbody>
         </table>
     </div>

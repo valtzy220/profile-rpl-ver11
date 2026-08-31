@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\guruController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
@@ -14,18 +15,23 @@ Route::get('/contact',
 Route::get('/fasilitas',
     [App\Http\Controllers\PageController::class, 'fasilitas'])
     ->name('fasilitas');
+
 Route::get('/data-guru',
-    [App\Http\Controllers\PageController::class, 'guru'])
+    [App\Http\Controllers\guruController::class, 'index'])
     ->name('data-guru');
+
 Route::get('/mata-pelajaran',
     [App\Http\Controllers\PageController::class, 'pelajaran'])
     ->name('mata-pelajaran');
+
 Route::get('/profile',
     [App\Http\Controllers\PageController::class, 'profile'])
     ->name('profile');
+
 Route::get('/prestasi',
     [App\Http\Controllers\PageController::class, 'prestasi'])
     ->name('prestasi');
+
 Route::get('/gallery',
     [App\Http\Controllers\PageController::class, 'gallery'])
     ->name('gallery');

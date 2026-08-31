@@ -17,9 +17,6 @@ class PageController extends Controller
     public function fasilitas()
     {
         return view('fasilitas');
-    } public function guru()
-    {
-        return view('data-guru');
     }
  
     public function pelajaran()
@@ -38,4 +35,5 @@ class PageController extends Controller
     {
         return view('gallery');
     }
+   
 }
